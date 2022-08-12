@@ -80,7 +80,7 @@ export default function SearchForm() {
             /> */}
 
             <FormGroup>
-                <FormLabel>Words (operators: "exact", OR, -)</FormLabel>
+                <FormLabel>Words (operators: `&quot;`exact`&quot;`, OR, -)</FormLabel>
                 <TextField variant="outlined" {...register("allWords", { required: false, maxLength: 20 })} placeholder="Search query" />
 
                 <TextField variant="outlined" {...register("hashtags", { required: false, maxLength: 20 })} placeholder="These hashtags" />
