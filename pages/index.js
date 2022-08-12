@@ -1,17 +1,23 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import SearchForm from '../components/search'
+
 
 export default function Home() {
+  console.log('Home')
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Twitter Advanced Search</title>
         <meta name="description" content="Alternative frontend for Twitter Advanced Search" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <h1>Twitter Advanced Search</h1>
 
-      <footer className={styles.footer}>
+      <SearchForm></SearchForm>
+
+
+      <footer>
         <a
           href="https://twitter.com/0xren_cf"
           target="_blank"
