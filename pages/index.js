@@ -16,16 +16,6 @@ export default function Home() {
 
       <SearchForm></SearchForm>
 
-
-      <footer>
-        <a
-          href="https://twitter.com/0xren_cf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Created by 0xrencf{' '}
-        </a>
-      </footer>
     </div>
   )
 }
